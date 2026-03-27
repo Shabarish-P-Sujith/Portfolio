@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shabarish P Sujith — Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ───── NAV ───── -->
+  <nav id="navbar">
+    <div class="nav-logo">Shabarish<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#" data-section="home" class="nav-link active">Home</a></li>
+      <li><a href="#" data-section="about" class="nav-link">About</a></li>
+      <li><a href="#" data-section="projects" class="nav-link">Projects</a></li>
+      <li><a href="#" data-section="contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ───── MAIN CONTENT ───── -->
+  <main id="app">
+
+    <!-- HOME -->
+    <section class="page" id="home">
+      <div class="hero-content">
+        <p class="hero-tag">👋 Hello, I'm</p>
+        <h1 class="hero-name">Shabarish<br/>P Sujith<span class="dot">.</span></h1>
+        <p class="hero-sub">MCA Student &amp; DevOps + Full Stack Developer<br/>based in Pune, India.</p>
+        <div class="hero-btns">
+          <button class="btn btn-primary" data-section="projects">View Projects</button>
+          <button class="btn btn-outline" data-section="contact">Get in Touch</button>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="blob"></div>
+        <div class="avatar-box">
+          <!-- Replace src with your actual photo -->
+          <img src="assets/avatar.png" alt="Shabarish" onerror="this.style.display='none'" />
+          <div class="avatar-initials">SPS</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="page hidden" id="about">
+      <div class="section-header">
+        <span class="section-tag">Who I Am</span>
+        <h2>About Me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Hi! I'm <strong>Shabarish P Sujith</strong>, a passionate <strong>Full Stack Web Developer</strong>
+            currently pursuing my MCA at <strong>Sri Balaji University, Pune</strong>.
+            Along with that, I am an aspiring <strong>DevOps Engineer</strong>
+            I love building things from scratch and am always eager to learn the latest trends & technologies.
+          </p>
+          <p>
+            When I'm not coding, you'll find me exploring new ideas, <strong>playing Chess</strong>,
+            or doing research on <strong>Geo-Political issues</strong>.
+          </p>
+          <div class="edu-card">
+            <span class="edu-icon">🎓</span>
+            <div>
+              <strong>Master of Computer Applications</strong>
+              <p>Sri Balaji University, Pune</p><p>2025-27</p>
+            </div>
+          </div>
+        </div>
+        <div class="skills-box">
+          <h3 class="btn btn-primary resume-btn">Skills</h3>
+          <div class="skills-grid">
+            <span class="skill-chip">Linux</span>
+            <span class="skill-chip">Docker</span>
+            <span class="skill-chip">CI / CD</span>
+            <span class="skill-chip">Git &amp; GitHub</span>
+            <span class="skill-chip">Python</span>
+            <span class="skill-chip">PostgreSQL</span>
+            <span class="skill-chip">MySQL</span>
+            <span class="skill-chip">MongoDB</span>
+            <span class="skill-chip">VS Code</span>
+            <span class="skill-chip">NextJS</span>
+            <span class="skill-chip">TypeScript</span>
+            <span class="skill-chip">ReactJS</span>
+            <span class="skill-chip">NodeJS</span>
+            <span class="skill-chip">ExpressJS</span>
+            <span class="skill-chip">Redis</span>
+          </div>
+          <!-- Optional resume download -->
+          <!-- <a href="assets/resume.pdf" download class="btn btn-primary resume-btn">⬇ Download Resume</a> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="page hidden" id="projects">
+      <div class="section-header">
+        <span class="section-tag">What I've Built</span>
+        <h2>Projects</h2>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-num">01</div>
+          <h3>Docker Tutorial</h3>
+          <p>This is a complete Tutorial for Docker with examples, explanation and documentation.</p>
+          <div class="project-tags">
+            <span>Docker</span><span>YAML</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Shabarish-P-Sujith/Containerization-Learnings" target="_blank">💻 GitHub</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-num">02</div>
+          <h3>CI/CD Pipelines</h3>
+          <p>This is basic playlist for CI/CD pipelines using GitHub Actions, along with Linux concepts</p>
+          <div class="project-tags">
+            <span>Shell Scripting</span><span>CI/CD</span><span>GitHub Actions</span><span>YAML</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Shabarish-P-Sujith/GitHub-Actions-Learnings" target="_blank">💻 GitHub</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-num">03</div>
+          <h3>Password Generator</h3>
+          <p>This is my very first (BASIC) project, using which you can generate Random Passwords</p>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Shabarish-P-Sujith/Password-Generator" target="_blank">💻 GitHub</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="page hidden" id="contact">
+      <div class="section-header">
+        <span class="section-tag">Say Hello</span>
+        <h2>Contact</h2>
+      </div>
+      <div class="contact-wrapper">
+        <p class="contact-intro">I'm open to internships, collaborations, and new opportunities. Feel free to reach out!</p>
+        <div class="contact-cards">
+          <a href="mailto:shabarishpsujith@gmail.com" class="contact-card">
+            <span class="contact-icon">✉️</span>
+            <div>
+              <strong>Email</strong>
+              <p>shabarishpsujith@gmail.com</p>
+            </div>
+          </a>
+          <a href="https://linkedin.com/in/shabarish-p-sujith-781483270" target="_blank" class="contact-card">
+            <span class="contact-icon">💼</span>
+            <div>
+              <strong>LinkedIn</strong>
+              <p>linkedin.com/in/shabarish-p-sujith-781483270</p>
+            </div>
+          </a>
+          <a href="https://github.com/Shabarish-P-Sujith" target="_blank" class="contact-card">
+            <span class="contact-icon">🐙</span>
+            <div>
+              <strong>GitHub</strong>
+              <p>github.com/Shabarish-P-Sujith</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ───── FOOTER ───── -->
+  <footer>
+    <p>Built with 🔥 by <strong>Shabarish</strong> · <span id="year"></span></p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
